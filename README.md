@@ -1,6 +1,6 @@
 # Olea Tax Co Project
 
-Local project workspace for the single Olea Tax Co draft website before a production CMS build.
+Standalone repo for the single Olea Tax Co draft website before a production CMS build.
 
 ## Scope
 
@@ -16,11 +16,11 @@ Do not edit Olea Media Co files from this project thread.
 ## Local Preview
 
 ```bash
-cd ~/Codex/web/github.io
+cd /Users/ecohen/Dev/OleaTax
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/oleataxco/`.
+Open `http://localhost:8000/`.
 
 ## Current Build
 
@@ -34,7 +34,7 @@ Open `http://localhost:8000/oleataxco/`.
 
 The current site uses this founder photo path:
 
-- `web/github.io/oleataxco/assets/kelly-portrait.jpg`
+- `assets/kelly-portrait.jpg`
 
 Add/replace that file to update the photo on the live draft homepage.
 
@@ -49,11 +49,11 @@ All versions include the same top banner text:
 
 GitHub Pages deploy is handled by:
 
-- `~/Codex/.github/workflows/deploy-oleamediaco-site.yml`
+- `.github/workflows/deploy-pages.yml`
 
-This workflow publishes this folder to:
+This workflow publishes this repo root to:
 
-- `https://ec92009.github.io/Codex/oleataxco/`
+- `https://ec92009.github.io/OleaTax/`
 
 ## Scheduling Placeholder
 
