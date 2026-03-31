@@ -10,8 +10,9 @@ Use this folder for Olea Tax Co work only:
 - Legacy concept references: `concepts/`
 - Shared styles/scripts: `assets/`
 - Planning notes: `content-workbook.md`
+- Product requirements: `PRD.md`
 
-Do not edit Olea Media Co files from this project thread.
+This repo no longer includes the old shared `Codex/` or `OleaMedia/` site folders.
 
 ## Local Preview
 
